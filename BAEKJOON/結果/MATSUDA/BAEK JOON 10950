@@ -1,0 +1,30 @@
+// BEAK JOON No.10950 A+B
+
+import java.util.Scanner;
+
+public class Study {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int t = scanner.nextInt();
+			for (int i = 0; i < t; i++) {
+					int a = scanner.nextInt();
+					int b = scanner.nextInt();
+					System.out.println(a + b);
+			}
+	}
+}
+
+// 入力例
+//5
+//1 1
+//2 3
+//3 4
+//9 8
+//5 2
+
+// 出力例
+//2
+//5
+//7
+//17
+//7
