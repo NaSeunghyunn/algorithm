@@ -1,0 +1,39 @@
+//BAEK JOON 1267 携帯料金
+public class Study2 {
+
+// まだ途中です 
+
+
+	public static void main(String[] args) {
+		int input = 0;
+		int price = 0;
+		int price1, price2 = 0;
+		int yCost = 0, mCost = 0;
+		
+		for(int i = 0; i < input; i++) {
+			price1 = price/30;
+			price2 = price/60;
+			
+			if(price1 == 0) {
+				yCost += 10;
+			} else {
+				yCost += 10 + (10 * price1);
+			}
+			
+			if(price2 == 0) {
+				price2 += 15;
+			} else {
+				price2 += 15 + (15 * price2);
+			}
+		}
+	
+		if(price1 == price2) {
+			System.out.println("Y M" + price1);
+		} else if {
+			
+		}
+		
+		
+	}
+
+}
